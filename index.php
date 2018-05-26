@@ -1,8 +1,8 @@
 <?php
 	
-	$targets = array("436605635662", 
-	"4916096782533",
-	"436648204112"); //Who should get a message?
+	$targets = array("4366xxxx662", 
+	"49160967xxxxx",
+	"4366482xxxxx"); //Who should get a message?
 	$messages = array("Einen wundervollen guten Morgen!", 
 	"Guten Morgen! <3", 
 	"Ich hoffe, Sie hatten eine wundervolle Nacht!",
@@ -35,8 +35,10 @@
 	echo "\n\n\n\n\n";
 
 	require_once 'whatsprot.class.php';
-	$username = "436646473355"; //Mobile Phone prefixed with country code so for india it will be 91xxxxxxxx
-	$password = "Z10t1ePNG1CsjZy5hrnHgXm/v1g=";
+	$username = "43xxxxxxxxx"; //Mobile Phone prefixed with country code so for india it will be 91xxxxxxxx
+	$password = "password";
+
+        //Generate with yowsup!
 	 
 	$w = new WhatsProt($username, 0, "ADarkHero Whatsapp Bot", true); //Name your application by replacing "WhatsApp Messaging"
 	$w->connect();
